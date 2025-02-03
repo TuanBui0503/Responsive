@@ -1,0 +1,24 @@
+thẻ media query
+1, keyword
+a. not (loại trừ, ví dụ có a b c nếu dùng not a thì sẽ loại trừ thằng a ra để áp dụng lên b và c )
+b. only ( chỉ áp dụng cho 1 đối tượng ví dụ có a b c nếu dùng only a thì chỉ áp dụng cho a)
+c. and
+d. or
+
+2, mediatype ( các loại màn hình mình muốn css)
+a. print ( chế độ in)
+b. screen ( màn hình )
+c. speech ( màn hình có thể nói đc, dùng cho người khuyết tật)
+d. all-default( dùng cho tất cả loại màn hình)
+
+3, media feature 
+    a. min-width
+    b. max-width
+
+4, breakpoint
+- là những điểm, vị trí mà bố cục sẽ thay đổi - thích ứng để tạo nên giao diện 
++ width nhỏ hơn 740px thì gọi là mobile
++ width >= 740px <= 1024px gọi là tablet
++ width >= 1024px gọi là pc
+
+- nên sử dụng đơn vị em ( 1em = 16px) khi dùng media query

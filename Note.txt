@@ -22,3 +22,10 @@ d. all-default( dùng cho tất cả loại màn hình)
 + width >= 1024px gọi là pc
 
 - nên sử dụng đơn vị em ( 1em = 16px) khi dùng media query
+
+5, Responsive grid system
+là 1 hệ thống lưới chia trang web thành cột, hàng để dễ dàng chia bố cục
+- Grid: thành phần cha
+- Row: dòng
+- Column: cột
+- Gutter: khoảng cách giữa 2 cột

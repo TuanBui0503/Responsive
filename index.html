@@ -5,9 +5,63 @@
   <title>Thử</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" media="(min-width: 1024px)" href="./PC.css">
-  <link rel="stylesheet" media="(max-width: 740px)" href="./Mobile.css">
+  <link rel="stylesheet" href="./grid.css">
+  <link rel="stylesheet" href="./PC.css">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
 </head>
+
 <body>
-    <h1>TEST</h1>
+  <!-- bán hàng sốp pi -->
+  <div class="grid wide">
+    <div class="row">
+      <div class="col l-5 m-5 c-12">
+        <div class="item">
+          <img style="width: 100%;" src="/img/1.png" alt="">
+          <h2>GIÁ: 5 củ khoai nướng hồ tây</h2>
+        </div>
+      </div>
+      <div class="col l-7 m-7 c-12 ">
+        <div style="background-color: #cccccc;" class="item">
+          <h2>Thông tin sản phẩm abcxyz</h2>
+          <p> đang flash sêu</p>
+          <button onclick="alert ('hết hàng hehe')">MUA NHANH</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<hr style=" margin: 40px;">
+  <!-- bán hàng điện tử -->
+   <div class="grid wide">
+    <div class="row">
+      <div class="col l-2 m-0 c-0">
+       <div> Menu</div>
+      </div>
+      <div class="col l-10 m-12 c-12">
+        <div class="row">
+          <div class="col l-2-4 m-4 c-12">
+            <div style="background-color: orange; line-height: 100px; height: 100px;"> item 1</div>
+          </div>
+          <div class="col l-2-4 m-4 c-12">
+            <div style="background-color: orange; line-height: 100px; height: 100px;"> item 2</div>
+          </div>
+          <div class="col l-2-4 m-4 c-12">
+            <div style="background-color: orange; line-height: 100px; height: 100px;">item 3</div>
+          </div>
+          <div class="col l-2-4 m-4 c-12">
+            <div style="background-color: orange; line-height: 100px; height: 100px;">item 4</div>
+          </div>
+          <div class="col l-2-4 m-4 c-12">
+            <div style="background-color: orange; line-height: 100px; height: 100px;">item 5</div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+
 </body>

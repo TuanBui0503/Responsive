@@ -25,7 +25,15 @@ d. all-default( dùng cho tất cả loại màn hình)
 
 5, Responsive grid system
 là 1 hệ thống lưới chia trang web thành cột, hàng để dễ dàng chia bố cục
-- Grid: thành phần cha
-- Row: dòng
-- Column: cột
-- Gutter: khoảng cách giữa 2 cột
+- Grid: thành phần cha chứa row và Column
+
+- Row: dòng - chiều ngang, chứa Column giúp Column nằm theo chiều ngang
+khi tổng chiều ngang của Column vượt quá row thì cho Column xuống hàng
+loại bỏ khoảng thừa do gutter tạo ra từ 2 bên
+
+- Column: là cột, sử dụng đơn vị tương đối %, số lượng cột thường được xác định trước
+VD: PC 12, 16 cột, tablet 8 cột, mobile 4 cột
+dùng để chứa các nội dung 
+- Gutter: khoảng cách giữa 2 cột, PC/tablet thường là 24px, mobile 16px
+- margins: Phần lề 2 bên của bố cục chính của web, phần lề lớn thích hợp cho màn hình lớn như PC
+phần lề nhỏ thích hợp cho màn hình nhỏ như tablet, mobile
